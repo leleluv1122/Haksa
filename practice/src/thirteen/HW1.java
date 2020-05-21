@@ -18,7 +18,6 @@ public class HW1 {
 			String s = scanner.next();
 			// System.out.println(s);
 			int n = 0;
-
 			if (m.containsKey(s))
 				m.put(s, m.get(s) + 1);
 			else
